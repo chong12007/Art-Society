@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background-size: 50cm 30cm;
+     background-repeat: no-repeat;
+    background-image: url("images/art2.jpg");
+}
+.nav-link:hover{
+    color: lightgray;
+    
+}
+
+#nav-toggle{
+    display: none;
+}
+
+#nav-toggle:checked{
+    width: 100%;
+}
+
+main-content{
+    margin-top: 90px;
+    padding: 2rem 1.5rem;
+    background: #f1f5f9;
+    min-height: calc(100vh - 90px);
+}
+label,legend{
+    color:black;
+}
+.menu-bar ul li a {
+    color:white;
+}
+
+  
+  .edit-form {
+    position: relative;
+    box-shadow: 10px 7px rgba(217, 217, 217, 0.356);
+    margin: 20px;
+    max-width: 350px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    border-width: 10px; 
+    padding-bottom: 50px;
+    background-color: white;
+  }
+  
+.form{
+    margin-top:100px;
+    width: 100%;
+    min-height: 380px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 300px;
+
+   
+}
+
+.edit-btn button{
+    margin-top: 10px;
+}
+

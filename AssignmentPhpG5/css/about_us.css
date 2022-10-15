@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: #48494b;
+    font-family: 'Courier New', Courier, monospace;
+    color: #d9dddc;
+}
+
+.logo{
+    float: left;
+    width: 200px;
+}
+
+
+.about{
+    width: 100%;
+    padding: 150px 0px;
+    background-color: #999da0;
+    display: flex;
+}
+
+.about img{
+    height: auto;
+    width: 420px;
+    margin: 50px;
+}
+
+.text{
+    width: 550px;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text h1{
+    color: #e5e5e5;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.text h5{
+    color: #c9bb8e;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+
+span{
+    color: #fae29c;
+}
+
+.text p{
+    color: #f5f5d1;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+button{
+    background: #a0a7b9;
+    color: #f8ebd8;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: 2s;
+}
+
+button:hover{
+    background: #a8a5ac;
+    border: 2px solid #a0a7b9;
+    cursor: pointer;
+}
+
+.our_team{
+    margin-top: 10%;
+}
+
+.our_team h1{
+    font-family: 'Allura', cursive;
+    font-size: 52px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.team{
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+}
+
+.team .member{
+    background: #f5f2f1;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: #9ca9ab;
+    position: static;
+}
+
+.team .member h3{
+    color: #40494b;
+    font-size: 26px;
+    margin-top: 20px;
+}
+
+.team .member p.role{
+    color: #614e55;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 12px 0;
+}
+
+.team .member .picture img{
+    width: 100px;
+    height: 100px;
+}
+
+.top img{
+   width:50px;
+   position: fixed;
+   left: 1170px;
+   top: 480px;
+   size: 500px;
+   max-width: 50%;
+   max-height: 50%;
+
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+    color: #a8a5ac;
+}
+.menu-bar ul li a {
+    color:white;
+}

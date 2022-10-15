@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    
+}
+body{
+    background-size: 50cm 30cm;
+     background-repeat: no-repeat;
+    background-image: url("images/art3.jpg");
+}
+
+.nav-link:hover{
+    color: lightgray;
+    
+}
+
+#nav-toggle{
+    display: none;
+}
+
+#nav-toggle:checked{
+    width: 100%;
+}
+
+main-content{
+    margin-top: 90px;
+    padding: 2rem 1.5rem;
+    background: #f1f5f9;
+    min-height: calc(100vh - 90px);
+}
+
+table{
+     border-collapse: collapse;
+        width: 90%;
+}
+tr,th{
+    border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr{background-color: white;}
+tr:nth-child(even){background-color: whitesmoke;}
+
+tr:hover {background-color: #ddd;}
+
+ th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: lightcoral;
+  color: white;
+}
+back{
+    text-decoration: none;background-color: grey;border-radius: 30px;padding: 5px;margin: 2px;
+}

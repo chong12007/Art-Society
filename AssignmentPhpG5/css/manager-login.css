@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background-color: rgba(159, 157, 157, 0.676);
+}
+.nav-link:hover{
+    color: lightgray;
+    
+}
+
+#nav-toggle{
+    display: none;
+}
+
+#nav-toggle:checked{
+    width: 100%;
+}
+main-content{
+    margin-top: 90px;
+    padding: 2rem 1.5rem;
+    background: #f1f5f9;
+    min-height: calc(100vh - 90px);
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 5%;
+}
+
+.log-in button{
+    margin-top: 10px;
+}
+
+button a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.log-in .back-home{
+    display: flex;
+    flex-direction: row-reverse;
+}
+

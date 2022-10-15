@@ -1,0 +1,269 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background: #f1f5f9;
+}
+.nav-link:hover{
+    color: lightgray;
+    
+}
+
+#nav-toggle{
+    display: none;
+}
+
+#nav-toggle:checked{
+    width: 100%;
+}
+
+main{
+    margin-top: 10px;
+    padding: 2rem 1.5rem;
+    background: #f1f5f9;
+    min-height: calc(100vh - 90px);
+}
+
+body h2{
+    text-align: center;
+    position: static;
+    padding-top: 20px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 2rem;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+
+.card-footer{
+ background-color: #a9a9a9;
+ border-style: solid;
+ border-radius: 30px;
+ border-collapse: separate; 
+ border-color: #a9a9a9;
+ border-width: 5px;
+ display: flex;
+ margin: 0%;
+ 
+}
+
+ #card-footer{
+    background-color: #a9a9a9;
+ border-style: solid;
+ border-radius: 30px;
+ border-collapse: separate; 
+ border-color: #1c1b1b;
+ border-width: 2px;
+ margin: 8px;
+}
+
+.card-single{
+  display: flex;
+  justify-content: space-between;
+  background: #fff;  
+  padding: 20px;
+  border-radius: 20px;
+  flex-direction: column;
+  border-style: solid;
+  padding: 0%;
+  text-align: center;
+}
+
+#card-footer:hover{
+    box-shadow: 5px 5px 5px lightblue;
+    color: white;
+    
+}
+
+.card-single a:link{
+    text-decoration: none;
+    position: relative;
+}
+
+
+.card-single a:visited{
+    text-decoration: none;
+}
+
+.card-single a:hover{
+    color: purple;
+}
+
+.recent-grid{
+    margin-top: 3.5rem;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: 65% auto;
+}
+
+.card{
+    background: #fff;
+    border-radius: 5px;
+}
+
+.card-header,.card-body{
+    padding: 1rem;
+}
+
+.card-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #f0f0f0;
+    
+}
+
+.card-header a{
+    text-decoration: none;
+}
+
+.card-header button{
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: .8;
+    padding: .5rem .1rem;
+    border: 1px solid var(--main-color);
+}
+
+.card-header button:hover{
+   box-shadow: 5px 5px #a9a9a9;
+}
+
+
+table {
+    border-collapse: collapse;
+}
+
+thead tr{
+    border-top: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+thead td{
+    font-weight: 700;
+}
+
+td{
+    padding: .5rem 1rem;
+    font-size: .9rem;
+    color: #222;
+}
+
+td .status{
+    display: inline-block;
+     height:20px;
+     width: 20px;
+     border-radius: 50%;
+
+}
+
+tr td:last-child{
+    display: flex;
+    align-items: center;
+}
+
+.status.purple{
+    color: rebeccapurple;
+}
+
+.status.pink{
+    color:deeppink;
+}
+.status.orange{
+    color: orangered;
+}
+
+.table-responsive{
+    width: 100%;
+    overflow-x: auto;
+}
+
+.customer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 1rem;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+}
+
+.info img{
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.info h4{
+    font-size: .8rem;
+    font-weight: 700;
+    color: #222;
+}
+
+.info small{
+    font-weight: 600;
+    color: var(--text-grey)1;
+}
+
+.contact span{
+    font-size: 1.2rem;
+    display: inline-block;
+    margin-left: .5rem;
+    color: var(--main-color);
+}
+
+.member-title{
+    text-align: center;
+}
+.member{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+    
+}
+
+.member-types{
+
+    display: flex;
+    justify-content: space-between;
+}
+.single-types{
+    text-align: center;
+    margin-left: 20px;
+    border-width: 10px;
+    border-radius: 30px;
+    border-width: 5px;
+    border-style: solid;
+  
+    
+    
+}
+.single-types p{
+    text-align: center;
+    border-top: #222 2px dashed;
+}
+.single-types .price h2{
+    text-align: center;
+    text-decoration: line-through;
+}
+
+.price{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+

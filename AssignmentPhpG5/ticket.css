@@ -1,0 +1,74 @@
+body{
+    background-size: 50cm 40cm;
+    background-repeat: no-repeat;
+    background-image: url("images/art1.jpg");
+
+}
+
+.menu-bar ul li a {
+  color:white;
+}
+h1{
+  text-align: center;
+  position: static;
+  padding-top: 10px;
+}
+  
+legend{
+  text-align: center;
+  position: static;
+  padding-top: 20px;
+}
+
+.ticket-form{
+  width: 100%;
+  min-height: 380px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+ 
+}
+
+.ticket {
+  position: relative;
+  background-color: white;
+  margin: 20px;
+  max-width: 350px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  border-width: 10px; 
+}
+
+.content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+}
+
+
+.ticket table{
+  width: 100%;
+  height: 100%;
+}
+
+.ticket button{
+  margin-top: 5px;
+  
+}
+
